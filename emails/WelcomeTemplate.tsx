@@ -12,7 +12,7 @@ const WelcomeTemplate = ({name}:{name:string}) => {
         <Tailwind>
           <Body className="bg-white">
               <Container>
-                  <Text style={heading}>Hello {name}</Text>
+                  <Text className="font-bold text-3xl">Hello {name}</Text>
                   <Link href="https://codewithmosh.com">www.codewithmosh.com</Link>
               </Container>
           </Body>
